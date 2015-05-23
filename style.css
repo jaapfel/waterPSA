@@ -1,0 +1,38 @@
+/*	Author: Randeep Singh
+	Comp 127: Lab 2
+	May 17, 2015
+*/
+body{
+	background-color: #F8F8F8;
+	text-align: justify;
+	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+	
+p{
+	color: #009999;	
+	font-size: 0.8em;
+	display: inline-block;
+	text-align: left;
+}
+
+ul{
+	font-size: 0.8em;
+	color: #009999;
+	display: inline-block;
+	text-align: left;
+}
+
+h2{
+	color: #0066FF;
+	text-decoration: overline underline;
+	font-style: italic;
+
+}
+
+h3{
+	color: #0066FF;
+	line-height: 30%;
+	font-style: oblique;
+	font-size: 0.9em;
+}
