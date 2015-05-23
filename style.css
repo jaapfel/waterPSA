@@ -2,18 +2,16 @@ body{
 	background-color: #F8F8F8;
 	text-align: justify;
 	text-align: center;
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-family: "Times New Roman", Times, serif;
 }
 	
 p{
 	color: #009999;	
-	font-size: 0.8em;
 	display: inline-block;
 	text-align: left;
 }
 
 ul{
-	font-size: 0.8em;
 	color: #009999;
 	display: inline-block;
 	text-align: left;
@@ -30,5 +28,4 @@ h3{
 	color: #0066FF;
 	line-height: 30%;
 	font-style: oblique;
-	font-size: 0.9em;
 }
