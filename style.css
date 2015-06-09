@@ -18,6 +18,12 @@ ul {
     overflow: hidden;
 }
 
+#tabs {
+	list-style-type:none;
+	margin: 30px 0 0 0;
+	padding: 0 0 0.3em 0;
+}
+
 li {
     float: left;
 }
@@ -50,4 +56,22 @@ h3{
 	color: #0066FF;
 	line-height: 30%;
 	font-style: oblique;
+}
+
+input[type=button] {
+	margin: 0 0;
+	padding: 20px 20px;
+	border: none;
+	width:33%;
+	font-size: 140%;
+	font-style: oblique;
+	line-height: 30%;
+	background: #3D3331;
+	color: white;
+	background-color: #0066FF;
+	display: inline-block;
+}
+
+input[type=button]:hover {
+	background-color: #009999;
 }
