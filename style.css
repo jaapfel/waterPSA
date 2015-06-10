@@ -115,7 +115,6 @@ input[type=button]:hover {
 /*.box p{
 	text-align: center;
 }
-
 .box h3{
 	text-align: center;
 }*/
@@ -182,8 +181,8 @@ div{
 }
 
 .neha{ 
-	display: inline-block; 
-	float: left;
+	float: right;
+	display: inline-block;
 	width: 13.3%; 
 	margin-right: 10%;
 	margin-left: 10%;
@@ -191,8 +190,8 @@ div{
 }
 
 .jessica{ 
-	float: right;
-	display: inline-block;
+	display: inline-block; 
+	float: left;
 	width: 13.3%; 
 	margin-right: 10%;
 	margin-left: 10%;
@@ -207,13 +206,11 @@ div{
 	width: 100px;
 	height: 100px;
 }
-
 div:after{
 	content: '';
 	display: inline-block;
 	width: 100%;
 }
-
 p.authors{
 	text-align: justify;
 	margin-left: 10%;
