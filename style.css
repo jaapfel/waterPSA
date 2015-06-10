@@ -92,6 +92,13 @@ input[type=button]:hover {
 	text-align: center;
 }
 
+#return p{
+	font-size: 0.9em;
+	display: inline-block;
+	text-align: justify;
+	text-align: center;
+}
+
 #box{
 	margin-right: 10%;
 	margin-left: 10%;
@@ -104,6 +111,14 @@ input[type=button]:hover {
 	padding: 3px;
 
 }
+
+/*.box p{
+	text-align: center;
+}
+
+.box h3{
+	text-align: center;
+}*/
 
 label{
 	float: left;

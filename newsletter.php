@@ -31,8 +31,8 @@
 <body>
 
 	<div id="box">
-		<h2>Need more information and period updates on this drought?</h2>
-		<h3>Provide us with your name and e-mail address to receive monthly web newsletters straight to your e-mail inbox!. (We promise we won't spam you!)</h3>
+		<h3>Need more information and monthly updates on this drought?</h3>
+		<p>Provide us with your name and e-mail address to receive <br> monthly web newsletters straight to your e-mail inbox!. <br>(We promise we won't spam you!)</p>
 		<?php if($error == true) { ?>
 			<p class="error">Please fill out all the fields in the form.</p>
 		<?php } if($sent == true) { ?>
@@ -51,7 +51,9 @@
 		</div>
 	</div>
 	
-	
+	<footer id="return">
+		<p><a href="index.html">Return to the Homepage</a></p>
+	</footer>
 	
 </body>
 </html>

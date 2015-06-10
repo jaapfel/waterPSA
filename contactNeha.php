@@ -32,7 +32,8 @@
 <body>
 
 	<div id="box">
-		<h2>Is someone in your community over-exercising their right to water? Tell me and we'll forward your concerns to the proper authorities.</h2>
+		<h3>Is someone in your community over-exercising their right to water?</h3> 
+		<p>Tell me and we'll forward your concerns to the proper <br>authorities.</p>
 		<?php if($error == true) { ?>
 			<p class="error">Please fill out all the fields in the form.</p>
 		<?php } if($sent == true) { ?>
@@ -53,7 +54,9 @@
 		</div>
 	</div>
 	
-	
+	<footer id="return">
+		<p><a href="index.html">Return to the Homepage</a></p>
+	</footer>
 	
 </body>
 </html>
