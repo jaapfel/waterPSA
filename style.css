@@ -9,6 +9,8 @@ p{
 	color: #009999;	
 	display: inline-block;
 	text-align: left;
+	margin-right: 10%;
+	margin-left: 10%;
 }
 
 ul {
@@ -16,6 +18,11 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+	color: #009999;	
+	margin-right: 10%;
+	margin-left: 10%;
+	text-align: left;
+
 }
 
 #tabs {
@@ -26,6 +33,7 @@ ul {
 
 li {
     float: left;
+
 }
 
 #menu {
@@ -47,7 +55,7 @@ h1{
 }
 h2{
 	color: #0066FF;
-	text-decoration: overline underline;
+	text-decoration: underline;
 	font-style: italic;
 
 }
@@ -75,3 +83,123 @@ input[type=button] {
 input[type=button]:hover {
 	background-color: #009999;
 }
+
+
+#newsletter p{
+	font-size: 0.9em;
+	display: inline-block;
+	text-align: justify;
+	text-align: center;
+}
+
+#box{
+	margin-right: 10%;
+	margin-left: 10%;
+	display: inline-block;
+}
+
+#form{
+	margin: 10px;
+	width: 500px;
+	padding: 3px;
+
+}
+
+label{
+	float: left;
+	width: 100px;
+	text-align: right;
+
+}
+
+textarea{
+	width: 350px;
+	padding: 3px;
+	margin: 0px;
+}
+
+input{
+	width: 350px;
+	padding: 3px;
+	margin: 0px;
+}
+
+p.error{
+	color: red;
+}
+
+p.sent{
+	color: green;
+}
+
+div{
+	text-align: justify;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+.randeep{ 
+	/*float: middle; */
+	display: inline-block;
+	width: 13.3%; 
+	margin-right: 10%;
+	margin-left: 10%;
+	text-align: center;
+}
+
+.authors{
+	color: #0066CC;
+}
+
+.randeep p{
+	font-size: 0.7em;
+	text-align: center;
+}
+
+.jessica p{
+	font-size: 0.7em;
+	text-align: center;
+}
+
+.neha p{
+	font-size: 0.7em;
+	text-align: center;
+}
+
+.neha{ 
+	display: inline-block; 
+	float: left;
+	width: 13.3%; 
+	margin-right: 10%;
+	margin-left: 10%;
+	text-align: center;
+}
+
+.jessica{ 
+	float: right;
+	display: inline-block;
+	width: 13.3%; 
+	margin-right: 10%;
+	margin-left: 10%;
+	text-align: center;
+
+}
+
+
+
+/*div img{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+}
+
+div:after{
+	content: '';
+	display: inline-block;
+	width: 100%;
+}
+
+p.authors{
+	text-align: justify;
+	margin-left: 10%;
+}*/
