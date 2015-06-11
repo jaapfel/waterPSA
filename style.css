@@ -1,7 +1,7 @@
 body{
 	/*background-color: #F8F8F8;*/
 	background: #F8F8F8;
-	background: linear-gradient(to right bottom, #f6f1d3 20%, #CCFFFF 75%, #99FFCC);
+	background: linear-gradient(to right, #f6f1d3 20%, #CCFFFF 75%, #99FFCC);
 	text-align: justify;
 	text-align: center;
 	font-family: "Times New Roman", Times, serif;
